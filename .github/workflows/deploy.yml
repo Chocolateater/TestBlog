@@ -1,34 +1,31 @@
 name: Deploy Hexo to GitHub Pages
-
+ 
 on:
   push:
     branches:
-      - main  # 监听 main 分支的推送事件
-  pull_request:
-    branches:
-      - main  # 在主分支的 Pull Request 时触发
-
+      - main  # Replace with your default branch name
+ 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
+ 
     steps:
-      - name: Checkout repository
+      - name: Checkout 🛎️
         uses: actions/checkout@v2
-
-      - name: Setup Node.js
+ 
+      - name: Setup Node.js 📦
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # 根据您的需求选择 Node.js 版本
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Generate Hexo static files
-        run: npm run generate  # 根据您的 package.json 脚本调整命令
-
-      - name: Deploy to GitHub Pages
+          node-version: '12.x'
+ 
+      - name: Install Hexo 🔧
+        run: npm install -g hexo-cli
+ 
+      - name: Build Hexo 🏗️
+        run: hexo clean && hexo generate
+ 
+      - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public  # Hexo 输出的目录
+          publish_dir: ./public  # Hexo public directory
