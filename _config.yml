@@ -112,7 +112,27 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: cosy
 
+algolia:
+  appId: 你的
+  apiKey: 你的
+  adminApiKey: 你的
+  SearchOnlyAPIKey: 你的
+  chunkSize: 5000
+  indexName: 你的algolia的index
+  fields:
+    - content
+    - excerpt:strip
+    - categories
+    - title
+    - permalink
+    - slug
+    - tags
+    - title
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/chocolateater/Cosy.git
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: main
