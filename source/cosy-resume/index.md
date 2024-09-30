@@ -1,7 +1,7 @@
 ---
 title: resume
 layout: cosy-resume
-name: Hi, I'm Mozzie
+name: Hi, I'm Mozziee
 avatar: /img/avatar.png
 email: himozzie@gmail.com
 phone: +86 180-xxxx-xxx
