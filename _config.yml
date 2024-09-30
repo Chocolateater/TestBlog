@@ -3,17 +3,25 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+# 网页标题
+title: 17px blog
+# 侧边栏顶部显示
+subtitle: "Mozzie"
+# 用于SEO的html元描述
+description: ""
+# 用于SEO的html关键字
 keywords:
-author: John Doe
-language: en
+# 文章版权声明显示作者名称
+author: Mozzie
+
+# 在此处设置您的网站url
+url: https://maxshader.com
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -51,10 +59,14 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+
+
+# v7.0.0
+syntax_highlighter: prismjs
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
+  line_threshold: 0
   tab_replace: ''
 
 # Home page setting
@@ -98,7 +110,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: cosy
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

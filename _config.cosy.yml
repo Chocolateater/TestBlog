@@ -1,0 +1,54 @@
+category_meta:
+  foo: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1"></path><path d="M8 16h8"></path><path d="M8.322 12.582l7.956.836"></path><path d="M8.787 9.168l7.826 1.664"></path><path d="M10.096 5.764l7.608 2.472"></path></g></svg>
+  bar: false
+favicon: ''
+# 基佬紫，天下无敌
+color: hsl(238,50%,56%)
+icp: 苏ICP备114514号-x
+motto: "Hello, world!"
+katex:
+  jsCdn: //cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js
+  cssCdn: //cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css
+mermaid:
+  # 默认使用 neutral，可选配置：default | dark | forest | neutral
+  theme: neutral
+  cdn: //cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.min.js
+valine:
+  # 替换
+  appId: hFgyB3VOooemwe6OI2oQDcag-MdYXbMMI
+  # 替换
+  appKey: C53lzVdSMn3aZVG7yEu6ZocD
+  avatar: monsterid
+  cdn: //unpkg.com/valine@latest/dist/Valine.min.js
+  # 替换
+  serverURLs: https://hfgyb3vo.api.lncldglobal.com
+weather:
+  enable: false
+  # 替换
+  cityCode: cityCode
+  appKey: appKey
+# nav_meta:
+  # archives: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7h1a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2h-2"></path><path d="M8 7H6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1"></path><path d="M12 8l-2 4h3l-2 4"></path></g></svg>
+  # cosy-roadmap: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M5 8V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2h-5"></path><circle cx="6" cy="14" r="3"></circle><path d="M4.5 17L3 22l3-1.5L9 22l-1.5-5"></path></g></svg>
+  # cosy-resume: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M5 8V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2h-5"></path><circle cx="6" cy="14" r="3"></circle><path d="M4.5 17L3 22l3-1.5L9 22l-1.5-5"></path></g></svg>
+nav_meta:
+  # 不显示 timeline页面
+  timeline: false
+  # 自定义图标
+  roadmap:
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10.5 20.4l-6.9-6.9c-.781-.781-.781-2.219 0-3l6.9-6.9c.781-.781 2.219-.781 3 0l6.9 6.9c.781.781.781 2.219 0 3l-6.9 6.9c-.781.781-2.219.781-3 0z"></path>
+    <path d="M9 14v-2c0-.59.414-1 1-1h5"></path>
+    <path d="M13 9l2 2l-2 2"></path>
+    </g>
+    </svg>
+  resume:
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+    <path d="M5 8V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2h-5"></path>
+    <circle cx="6" cy="14" r="3"></circle>
+    <path d="M4.5 17L3 22l3-1.5L9 22l-1.5-5"></path>
+    </g>
+    </svg>
