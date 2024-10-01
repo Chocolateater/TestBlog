@@ -15,7 +15,7 @@ keywords:
 author: Mozzie
 
 # 在此处设置您的网站url
-url: https://maxshader.com
+url: https://chocolateater.github.io/TestBlog/
 language: zh-CN
 timezone: ''
 
@@ -133,6 +133,6 @@ algolia:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:chocolateater/Blog-Test.git
+  repo: git@github.com:chocolateater/TestBlog.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
