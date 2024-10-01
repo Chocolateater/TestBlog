@@ -11,3 +11,5 @@ Nothing to see here.
 Really.
 
 Go away.
+
+[Go back](/)
