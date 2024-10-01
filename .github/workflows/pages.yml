@@ -6,7 +6,8 @@ name: Pages
 on:
   push:
     branches:
-      - hexo
+      - main
+      - gh-pages
  
 # 定义一个名为 build-and-deploy 的 job
 jobs:
