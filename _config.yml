@@ -133,6 +133,6 @@ algolia:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/chocolateater/Cosy.git
+  repo: git@github.com:chocolateater/Blog-Test.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: main
+  branch: gh-pages
